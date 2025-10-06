@@ -402,28 +402,14 @@ P {
   z-index: 1;
 }
 
-.border-img {
-  opacity: 0;
-  transform: scale(0.95);
-  transition: all 0.4s ease;
-}
-
-.border-img.show {
-  opacity: 1;
-  transform: scale(1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.border-img:hover,
-.border-img.active {
+.border-img:hover {
   transform: translateY(-8px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   opacity: 1;
   transition: transform 0.4s ease;
 }
 
-.border-img:hover .badge,
-.border-img.active .badge {
+.border-img:hover .badge {
   transform: translateY(-8px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
   opacity: 1;
