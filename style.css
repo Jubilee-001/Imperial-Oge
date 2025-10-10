@@ -92,7 +92,7 @@ nav li:first-child {
   align-items: center;
   color: #26497a;
   margin-left: 0px;
-  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 5px 4px rgba(38, 73, 122, 0.119);
 }
 
 nav li:first-child a:any-link {
@@ -108,8 +108,8 @@ nav li:first-child a:any-link {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: #ffffffcf;
-  backdrop-filter: blur(10px);
+  background-color: #ffffffde;
+  backdrop-filter: blur(20px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
@@ -139,14 +139,15 @@ nav li:first-child a:any-link {
 
 .xbar-button {
   font-size: 1.3rem;
-  background-color: #00000065;
+  background: transparent;
   border: 0 solid;
-  border-radius: 3px;
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 .sidebar-button {
   font-size: 1.9rem;
-  border: 0 solid;
+  border: 0px solid;
   border-radius: 3px;
   color: #26497a;
   background-color: #ddd;
@@ -243,7 +244,7 @@ screen and (orientation: landscape) and (max-height: 450px) {
 
   .sidebar {
     width: 50%;
-    height: 55vh;
+    height: 65vh;
     border-radius: 18px;
   }
 
