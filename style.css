@@ -92,6 +92,7 @@ nav li:first-child {
   align-items: center;
   color: #26497a;
   margin-left: 0px;
+  text-shadow: 0px 5px 3.5px rgba(0, 0, 0, 0.2);
 }
 
 nav li:first-child a:any-link {
@@ -297,12 +298,14 @@ screen and (orientation: landscape) and (max-height: 450px) {
   text-decoration-style: 4px solid #fff;
   color: #b8860b;
   font-weight: 700;
+  text-shadow: 0px 5px 4.5px rgba(0, 0, 0, 0.2);
 }
 
 .subhead {
   font-size: 2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .moto {
@@ -313,6 +316,7 @@ screen and (orientation: landscape) and (max-height: 450px) {
   color: #fff;
   font-weight: bold;
   margin-bottom: 4rem;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .Bonus p {
@@ -327,6 +331,7 @@ screen and (orientation: landscape) and (max-height: 450px) {
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .top-buttons {
