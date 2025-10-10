@@ -92,7 +92,7 @@ nav li:first-child {
   align-items: center;
   color: #26497a;
   margin-left: 0px;
-  text-shadow: 0px 5px 3.5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav li:first-child a:any-link {
@@ -108,7 +108,7 @@ nav li:first-child a:any-link {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: #ffffff73;
+  background-color: #ffffffcf;
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
@@ -242,9 +242,9 @@ screen and (orientation: landscape) and (max-height: 450px) {
   }
 
   .sidebar {
-    width: 100%;
+    width: 50%;
     height: 55vh;
-    border-radius: 20px;
+    border-radius: 18px;
   }
 
   nav li {
