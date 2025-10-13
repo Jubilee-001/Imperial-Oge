@@ -133,7 +133,7 @@ nav li:first-child a:any-link {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 18px;
 }
 
@@ -163,6 +163,10 @@ nav li:first-child a:any-link {
   align-items: flex-start;
   justify-content: flex-start;
   font-size: 20px;
+}
+
+.nav-icons {
+  fill: #26497a;
 }
 
 /* @media screen and (max-width: 450px),
@@ -244,7 +248,7 @@ screen and (orientation: landscape) and (max-height: 450px) {
 
   .sidebar {
     width: 50%;
-    height: 65vh;
+    height: 60vh;
     border-radius: 18px;
   }
 
@@ -287,7 +291,7 @@ screen and (orientation: landscape) and (max-height: 450px) {
   flex-direction: column;
   padding: 0rem 2.5rem;
   justify-content: center;
-  margin-bottom: 0;
+  margin-bottom: 6rem;
   padding-bottom: 0;
 }
 
@@ -386,7 +390,7 @@ button:hover {
 
 .fashion-head {
   margin: 0 30px;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 h2 {
@@ -409,6 +413,7 @@ P {
   grid-template-columns: repeat(auto-fit, 300px);
   text-align: center;
   justify-content: center;
+  margin-bottom: 6rem;
   /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) */
 }
 
@@ -462,6 +467,8 @@ P {
   display: flex;
   gap: 10px;
   justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 
 .add-to-cart {
@@ -521,6 +528,7 @@ P {
   grid-template-columns: repeat(auto-fit, 340px);
   align-items: start;
   justify-content: center;
+  margin-bottom: 6rem;
 }
 
 h3 {
@@ -546,7 +554,7 @@ h3 {
 
 .Women-collection {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 h4 {
   font-size: 30px;
@@ -576,7 +584,7 @@ h4 {
 }
 
 footer {
-  background-color: #046018;
+  background-color: #495057;
   padding: 1rem;
   /* text-align: center; */
   color: #fff;
@@ -629,7 +637,7 @@ footer li {
 .submit {
   border: 0px solid;
   padding: 10px;
-  background: linear-gradient(45deg, #00ff4c, #b8860b);
+  background: linear-gradient(55deg, #868e96, #b8860b);
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -658,7 +666,7 @@ footer li {
 .social-media {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #3be2086d;
+  border-bottom: 1px solid #adb5bd;
 }
 
 footer a:any-link,
@@ -708,6 +716,10 @@ a:active {
 
 .end p {
   font-size: 12.5px;
+}
+
+.copyright {
+  color: #96f2d7;
 }
 
 .whatsapp-icon {
