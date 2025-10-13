@@ -26,7 +26,12 @@ html {
 }
 
 .background-img {
-  background-image: url(img/woman2.JPG);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(img/dool.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -303,7 +308,7 @@ screen and (orientation: landscape) and (max-height: 450px) {
   text-decoration-style: 4px solid #fff;
   color: #b8860b;
   font-weight: 700;
-  text-shadow: 0px 5px 4.5px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 10px 4.5px rgba(0, 0, 0, 0.2);
 }
 
 .subhead {
@@ -311,6 +316,8 @@ screen and (orientation: landscape) and (max-height: 450px) {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  color: #000;
 }
 
 .moto {
